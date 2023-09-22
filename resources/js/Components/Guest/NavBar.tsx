@@ -20,7 +20,7 @@ const Navbar = () => {
                     </Link>
                 </div>
                 <ul className={
-                    (scroll ? "left-0 md:static  fixed  bottom-0 top-10 md:w-auto md:bg-transparent bg-teal-800 bg-opacity-60 w-10/12 text-teal-800 md:flex md:space-x-7 items-center transition-left md:space-y-0 space-y-3   mt-6 text-2xl pl-2 pt-3 md:p-1 md:mt-0 md:pl-3"
+                    (scroll ? "left-0 md:static  fixed  bottom-0 top-10 md:w-auto md:bg-transparent bg-teal-800 bg-opacity-80 w-full text-teal-800 md:flex md:space-x-7 items-center transition-left md:space-y-0 space-y-3   mt-6 text-2xl pl-2 pt-3 md:p-1 md:mt-0 md:pl-3"
                         : "-left-full md:static  fixed  bottom-0 top-10 md:w-auto md:bg-transparent bg-teal-800 bg-opacity-60 w-10/12 text-teal-800 md:flex md:space-x-7 items-center transition-left md:space-y-0  mt-6 text-2xl md:p-1 md:mt-0 md:pl-3")
                 }>
                     <li className="nav-item">

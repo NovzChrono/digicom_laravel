@@ -44,6 +44,7 @@ Route::get('/trainings', [TrainingController::class, 'index'])->name('training')
 Route::get('/services', [ServiceController::class, 'index'])->name('service');
 Route::get('/projects', [PortfolioController::class, 'index'])->name('portfolio');
 Route::get('/news', [NewController::class, 'index'])->name('new');
+Route::get('/contact-us', [NewController::class, 'index'])->name('contact');
 
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
